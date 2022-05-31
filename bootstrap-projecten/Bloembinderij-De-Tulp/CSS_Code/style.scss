@@ -1,0 +1,69 @@
+[class*="img"] {
+width: 100%;
+height: 90%;
+background-color: #bac4d7;
+border-radius: 10px;
+margin-bottom: -20px;
+}
+p {
+padding: 5px 15px;
+font-size: 16px;
+}
+.jumbotron {
+background-image: url("../img/img4.jpg");
+background-size: cover;
+}
+.lead {
+width: 100%;
+background-color: rgba(248, 214, 184, 0.729);
+}
+.card {
+background-color: #dbdbdf;
+}
+.card-img-top {
+width: auto;
+height: auto;
+margin-bottom: 20px;
+}
+.ln {
+border: #a5a5b7 solid 2px;
+width: 80%;
+border-radius: 50%;
+}
+.fnt{
+    font-size: 18px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+    background-color: rgba(128, 128, 128, 0.808);
+}
+.d-block{
+    border-radius: 5px ;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.cor_con{    
+    width: 55px;
+    background-color: rgba(3, 59, 103, 0.249);
+    border-radius: 40px;
+}
+.pgn{
+    display: flex;
+    justify-content: center;
+}
+.page-item .page-link{
+    background-color: rgba(197, 190, 190, 0.747);
+}
+//===================================================================
+@media only screen and (max-width: 400px) {
+    .logo{
+        //background-color: green;
+        font-size: 100%;
+    }
+}
+@import 'form';

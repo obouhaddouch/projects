@@ -1,0 +1,25 @@
+.form{
+    margin: 70px 30px;
+    border: 1px solid gray;
+    padding: 20px;
+    .inp{
+        padding: 20px 10px ;
+    }
+    .btnContact{
+        float: right;
+        background-color: greenyellow;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: -5px 6px 10px black;
+        &:hover{
+            background-color: rgb(62, 122, 2);
+            color: #fff;
+        }
+        &:active{
+            background-color: greenyellow;
+            color: black;
+            box-shadow: 0px 0px 0px black;
+        }
+    }
+}

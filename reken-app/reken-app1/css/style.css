@@ -1,0 +1,93 @@
+@font-face {
+  font-family: NotoSans;
+  src: url("../fonts/NotoSans-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: NotoSans;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #01235a;
+  background-image: linear-gradient(160deg, #021697 50%, #0398e2 100%);
+  font-family: NotoSans;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.go-back{
+         
+  color: cornflowerblue;
+  font-size: 30px;
+  margin-top: -20px;
+  margin-left: 0px;
+}
+
+h1 {
+  margin-bottom: 1.5em;
+}
+
+section {
+  max-width: 600px;
+  padding: 3em;
+  margin: auto;
+  background-color: rgba(3, 167, 161, 0);
+  border-radius: 5px;
+  box-shadow: -10px 10px 15px rgb(0, 0, 0);
+  color: rgb(234, 250, 248);
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.2em;
+}
+
+input[type="number"] {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: 1px solid rgba(2, 41, 157, 0.728);
+  background-color: rgba(209, 225, 248, 0.599);
+  outline: none;
+  
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: rgb(71, 163, 255);
+}
+
+button:active {
+  background-color: rgb(28, 131, 235);
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgb(49, 241, 255);
+}
+.mr{
+  margin: 5px 20px;
+  
+  
+}

@@ -1,0 +1,105 @@
+header {
+  text-align: center;
+  background-color: rgba(119, 119, 255, 0.511);
+  width: 340px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 0px;
+  border-radius: 40px 40px 0px 0px;
+}
+
+header h3 {
+  font-size: 26px;
+  font-family: cursive;
+  color: #0303af;
+  text-shadow: -1px 1px 20px blue;
+}
+
+main {
+  background-color: rgba(119, 119, 255, 0.171);
+  width: 350px;
+  height: auto;
+  padding: 5px 2px 200px 2px;
+  margin: 0 auto;
+  margin-top: -6px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+main .input {
+  width: 80%;
+  height: 30px;
+  margin: 5px;
+  padding-left: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  color: #0303af;
+  background-color: rgba(89, 89, 250, 0.211);
+}
+
+main .add-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 25px;
+  margin-left: -5px;
+  background-color: #a6c3fa;
+  color: #0303af;
+}
+
+main .todo-con {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .display-none {
+  display: none;
+}
+
+main p {
+  text-align: left;
+  background-color: rgba(252, 196, 196, 0.273);
+  width: 260px;
+  color: #0303af;
+  padding: 3px;
+  margin: 2px 4px;
+  margin: 0 auto;
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding-left: 8px;
+  border-radius: 5px;
+}
+
+main .checkbox {
+  width: 30px;
+  height: 30px;
+  color: chartreuse;
+  background-color: chartreuse;
+}
+
+main .img-rm {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  margin-top: 2px;
+  background-color: rgba(253, 94, 94, 0.639);
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.tr-btn {
+  font-size: 30px;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=style.css.map */

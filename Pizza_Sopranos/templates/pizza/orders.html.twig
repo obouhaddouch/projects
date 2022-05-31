@@ -1,0 +1,75 @@
+{% extends 'base.html.twig' %}
+{#{% form_theme form 'bootstrap_4_layout.html.twig' %}#}
+
+{% block body %}
+    <div class="app">
+
+        {% include "defaults/header.html.twig" %}
+
+        <div class="container">
+
+            <div>
+                <h1 class="orders-tit"> Orders </h1>
+
+            </div>
+
+
+
+            <table class="table">
+                <thead>
+                <tr>
+
+                    <th scope="col">Naam</th>
+                    <th scope="col">Adres</th>
+                    <th scope="col">Stad</th>
+                    <th scope="col">Postcode</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Size</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for order in orders %}
+
+
+
+
+
+
+                    <tr>
+
+                        <td>{{ order.fname }} {{ order.sname }}  </td>
+                        <td>{{ order.address }}</td>
+                        <td>{{ order.city }}</td>
+                        <td>{{ order.zipcode }}</td>
+                        <td>{{ order.pizza.name }}</td>
+                        <td>{{ order.size.name }}</td>
+
+                    </tr>
+
+
+                {% endfor %}
+
+
+
+                </tbody>
+            </table>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        {% include "defaults/footer.html.twig" %}
+
+    </div>
+
+
+{% endblock %}

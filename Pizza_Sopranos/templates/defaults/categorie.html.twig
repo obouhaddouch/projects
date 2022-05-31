@@ -1,0 +1,41 @@
+<div class="container catrgories-con">
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-con">
+
+		{% for categorie in categorie.pizzas %}
+
+
+			<div class="col">
+				<div class="card">
+
+					<img class="card-img img-fluid" src="{{ asset(categorie.image)}}" class="card-img-top" alt="...">
+
+					<div class="card-body">
+                        <h3 class="card-text">{{categorie.price}}</h3>
+						<h5 class="card-title">{{categorie.name}}
+							pizza
+                        </h5>
+						
+
+
+						<a href="{{ path('order', {id : categorie.id }) }}"> 
+
+							<button type="button" class="btn">
+
+								{{categorie.name}}
+
+							</button>
+
+						</a>
+
+					</div>
+				</div>
+			</div>
+			
+
+
+		{% endfor %}
+
+
+	</div>
+</div>

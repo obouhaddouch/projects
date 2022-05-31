@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+
+{% block body %}
+<div class="app">
+
+	{% include "defaults/header.html.twig" %}
+
+    <div class="order-con">
+
+        <div>
+            <img class="order-img" src="{{ asset(img)}}" class="card-img-top" alt="...">
+        </div>
+
+        <div>
+
+            <h2>  {{ pizza }} </h2>
+
+            <h4>  €{{ price }} </h4>
+        </div>
+
+
+            <div class="order-form">
+
+            {{ form_start(form) }}
+                {{ form_widget(form) }}
+
+
+            {{ form_end(form) }}
+
+        </div>
+
+    </div>
+
+	{% include "defaults/footer.html.twig" %}
+	
+</div>
+
+
+{% endblock %}

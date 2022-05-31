@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: URW Chancery L, cursive;
+}
+body{
+    background-color: rgba(98, 140, 255, 0.645);
+
+}
+.App{
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+   // border-radius: 20px;
+    box-shadow: -15px -10px 40px rgba(0, 0, 0, 0.3), 15px -10px 40px rgba(0, 0, 0, 0.3);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    .c-player{
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        color: #fff;
+        width: 100%;
+        
+        .next{
+           // text-align: center;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+           // background-color: aquamarine;
+            height: 80px;
+        }
+
+        .tit{
+            text-align: center;
+            padding: 15px;
+          //  background-color: #000;
+            font-size: 30px;
+            //margin-top: 20px;
+
+        }
+
+        .c-player--details{
+            margin-top: 30px;
+            .details-img{
+                
+                img{
+                    width: 88%;
+                    height: auto;
+                    display: flex;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                    box-shadow: -4px -4px 15px rgba(0, 85, 255, 0.733), 4px 4px 15px rgba(0, 85, 255, 0.733) ;
+
+                }
+            }
+            .details-title{
+               // background-color: red;
+                text-align: center;
+                padding: 5px 0;
+                margin-top: 40px;
+            }
+            .details-artist{
+                text-align: center;
+                margin-top: 0;
+            }
+        }
+        .c-player--controls{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 50px;
+            button{
+                background-color: #000;
+                border: none;
+                color: #fff;
+                
+                .i{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 4px;
+}
+
+html,
+body {
+ 
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #7fc1f700;
+  
+  
+}
+
+/* Add correct CSS here for a grid overview */
+.board {
+  margin: 0 auto;
+  width: 320px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #7fc1f794;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.field {
+  background-color: rgba(110, 123, 243, 0.504);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 60px;
+  text-align: center;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+ 
+  
+}
+.cl-red{
+  color: red;
+}
+
+.WinnerLbl{
+  color: red;
+  text-align: center;
+  background-color: rgba(148, 229, 249, 0.533);
+  border-radius: 20px;
+  font-size: 30px;
+ 
+  box-shadow: 0px 0px 1000px rgb(0, 13, 255);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.players-con{
+  display: flex;
+}
+
+hr{
+  width: 0.5px;
+  background-color: #3ca5fa;
+  border: none;
+  border-radius: 5px;
+  
+}
+.reset-btn{
+  background-color: #0262b1;
+  color: antiquewhite;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 2px 10px blue;
+
+}

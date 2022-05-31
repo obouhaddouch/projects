@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-family: URW Chancery L, cursive;
+}
+
+body {
+  background-color: rgba(98, 140, 255, 0.645);
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  max-width: 450px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: black;
+  -webkit-box-shadow: -15px -10px 40px rgba(0, 0, 0, 0.3), 15px -10px 40px rgba(0, 0, 0, 0.3);
+          box-shadow: -15px -10px 40px rgba(0, 0, 0, 0.3), 15px -10px 40px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App .c-player {
+  background-color: black;
+  border-radius: 20px;
+  color: #fff;
+  width: 100%;
+}
+
+.App .c-player .next {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 80px;
+}
+
+.App .c-player .tit {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.App .c-player .c-player--details {
+  margin-top: 30px;
+}
+
+.App .c-player .c-player--details .details-img img {
+  width: 88%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-box-shadow: -4px -4px 15px rgba(0, 85, 255, 0.733), 4px 4px 15px rgba(0, 85, 255, 0.733);
+          box-shadow: -4px -4px 15px rgba(0, 85, 255, 0.733), 4px 4px 15px rgba(0, 85, 255, 0.733);
+}
+
+.App .c-player .c-player--details .details-title {
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 40px;
+}
+
+.App .c-player .c-player--details .details-artist {
+  text-align: center;
+  margin-top: 0;
+}
+
+.App .c-player .c-player--controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.App .c-player .c-player--controls button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+}
+
+.App .c-player .c-player--controls button .i {
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=App.css.map */

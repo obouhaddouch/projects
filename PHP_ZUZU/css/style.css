@@ -1,0 +1,70 @@
+form{
+    display: inline-block;
+    
+    
+    
+}
+body{
+    background-color: rgba(128, 128, 128, 0.149);
+    width: 100%;
+}
+.app{
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.945);
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+form{
+    width: 100%;
+}
+.lbl{
+    display: inline-block;
+    width: 100px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.submit-btn{
+    float: right;
+    
+    
+}
+.list-group-item{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 24px;
+}
+.list-group-item span{
+    width: 150px;
+}
+.list-group {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: -20px; 
+    border-radius: 10px;
+    
+}
+.btn-con{
+    background-color: cornflowerblue;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+.btn-con button{
+    float: right;
+    margin-top: 10px;
+}
+.form-control{
+    width: 95%;
+    margin-left: 10px;
+}
+.tit{
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.197);
+    border-radius: 5px;
+    color: rgb(169, 122, 122);
+    font-size: 32px;
+}

@@ -1,0 +1,11 @@
+
+satart ser => symfony serve
+
+
+
+Vegetarisch = ["Funghi","Veggie","Caprese"];
+Vlees = ["Kebab","pepperoni","Ham"];
+Vis = ["tonno","Napoletana","sicilian"];
+
+
+

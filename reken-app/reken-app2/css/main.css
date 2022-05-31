@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(80, 121, 243, 0.85);
+}
+
+body main {
+  width: 390px;
+  height: 650px;
+  background-color: rgba(19, 55, 139, 0.803);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px 8px 8px 20px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 40px;
+  overflow-y: scroll;
+  -webkit-box-shadow: -10px 10px 10px rgba(1, 10, 40, 0.877), 2px 2px 2px #011e76;
+          box-shadow: -10px 10px 10px rgba(1, 10, 40, 0.877), 2px 2px 2px #011e76;
+  color: #dbf8fc;
+}
+
+body main .go-back {
+  color: cornflowerblue;
+  font-size: 30px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+body main label {
+  width: 100px;
+  font-size: 20px;
+}
+
+body main input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 25px;
+  outline: none;
+  background-color: #c9ecfa;
+  border: none;
+  border-radius: 10px;
+}
+
+body main button {
+  width: 100px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: black -1px 1px 2px;
+          box-shadow: black -1px 1px 2px;
+  background-color: #9191f8;
+  color: #04046e;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+body main hr {
+  margin: 10px;
+}
+
+body main .R {
+  width: 220px;
+  height: 50px;
+  background: rgba(165, 225, 248, 0.79);
+  margin: 0 auto;
+  margin-top: 12px;
+  border-radius: 10px;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body ::-webkit-scrollbar {
+  width: 8px;
+}
+
+body ::-webkit-scrollbar-track {
+  background: #ff0505;
+  border-radius: 0px 8px 8px 0px;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background: #6abeff;
+  border-radius: 0px 8px 8px 0px;
+}
+
+body ::-webkit-scrollbar-thumb:hover {
+  background: #022074;
+}
+/*# sourceMappingURL=main.css.map */
